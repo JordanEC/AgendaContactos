@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agenda de contactos</string>
+    <string name="action_settings">Settings</string>
+    <string name="listarContactos">Listar contactos</string>
+    <string name="buscarContacto">Buscar contacto</string>
+    <string name="agregarContacto">Agregar contacto</string>
+    <string name="eliminarContacto">Eliminar contacto</string>
+    <string name="iDContacto">Identificador</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido1">Primer apellido</string>
+    <string name="apellido2">Segundo apellido</string>
+    <string name="telefonoCelular">Teléfono celular</string>
+    <string name="telefonoCasa">Teléfono casa</string>
+    <string name="direccion">Dirección</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="firma">Developed by: Jordan Espinoza C.</string>
+    <string name="title_activity_listar">ListarActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mostrar_contacto">MostrarContactoActivity</string>
+    <string name="listarKey">listarKey</string>
+    <string name="toastKey">toastKey</string>
+    <string name="agregar">Agregar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="agregarResultadoKey">agregarResultadoKey</string>
+    <string name="iDContactoKey">iDContactoKey</string>
+    <string name="tipoDeMuestraDeContactoKey">tipoDeMuestraDeContactoKey</string>
+    <string name="guardar">Guardar</string>
+    <string name="editarResultadoKey">editarResultadoKey</string>
+</resources>

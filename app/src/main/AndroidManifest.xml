@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jordanec.agendacontactos" >
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/contacts_icon"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ListarActivity"
+            android:label="Contactos" >
+            <intent-filter>
+                <action android:name="com.jordanec.ListarActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MostrarContactoActivity"
+            android:label="Contacto" >
+            <intent-filter>
+                <action android:name="com.jordanec.MostrarContactoActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
