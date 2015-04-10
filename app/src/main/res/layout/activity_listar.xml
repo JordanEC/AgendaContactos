@@ -4,8 +4,7 @@
     android:paddingRight="1dp"
     android:paddingTop="1dp"
     android:paddingBottom="1dp"
-    tools:context="com.jordan.agendacontactos.ListarActivity"
-    android:background="#ff050505" >
+    tools:context="com.jordan.agendacontactos.ListarActivity" >
 
     <ListView
         android:layout_width="match_parent"

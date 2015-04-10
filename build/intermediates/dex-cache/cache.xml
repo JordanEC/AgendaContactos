@@ -9,6 +9,13 @@
         <dex dex="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\pre-dexed\debug\classes-7176448e63d79f414a1f432860b560ec4992ae3b.jar" />
     </item>
     <item
+        jar="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-7818a34d473b720e4e5711d52a807fe5f97be2f1.jar" />
+    </item>
+    <item
         jar="C:\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -21,13 +28,6 @@
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\pre-dexed\debug\classes-af0b6155c4ab21c743bc718a3c93fb79f1e11d53.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Jordan\AndroidstudioProjects\AgendaContactos\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-7818a34d473b720e4e5711d52a807fe5f97be2f1.jar" />
     </item>
 
 </items>

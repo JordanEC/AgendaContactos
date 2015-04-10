@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ff050505" >
+    android:layout_height="match_parent" >
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:background="#ff050505"
         android:layout_marginLeft="0dp"
         android:layout_marginStart="0dp"
         android:layout_alignParentTop="true"
@@ -24,9 +22,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:paddingLeft="5dp"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:layout_weight="0.6"
                 android:textStyle="bold"
-                android:textColor="#ffffffff"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/iDContacto" />
@@ -38,9 +37,8 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="2dp"
                 android:background="@drawable/border"
-                android:textColor="#ffffffff"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/etIDContacto"
 
                 />
@@ -59,15 +57,15 @@
                 android:layout_weight="0.6"
                 android:textStyle="bold"
                 android:paddingLeft="5dp"
-                android:textColor="#ffffffff"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/nombre" />
 
             <EditText
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:textColor="#ffffffff"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/border"
                 android:paddingLeft="5dp"
@@ -90,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.6"
                 android:paddingLeft="5dp"
-                android:textColor="#ffffffff"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -103,7 +102,6 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="2dp"
                 android:background="@drawable/border"
-                android:textColor="#ffffffff"
                 android:id="@+id/etApellido1"
                 android:inputType="textPersonName"
                 android:ems="10"
@@ -121,7 +119,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.6"
                 android:textStyle="bold"
-                android:textColor="#ffffffff"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:paddingLeft="5dp"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -133,7 +132,6 @@
                 android:layout_weight="1"
                 android:paddingLeft="5dp"
                 android:paddingRight="2dp"
-                android:textColor="#ffffffff"
                 android:inputType="textPersonName"
                 android:background="@drawable/border"
                 android:ems="10"
@@ -149,8 +147,9 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.6"
-                android:textColor="#ffffffff"
                 android:paddingLeft="5dp"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -164,7 +163,6 @@
                 android:background="@drawable/border"
                 android:paddingRight="2dp"
                 android:inputType="phone"
-                android:textColor="#ffffffff"
                 android:id="@+id/etCelular"
                 android:ems="10" />
 
@@ -180,9 +178,10 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.6"
-                android:textColor="#ffffffff"
                 android:paddingLeft="5dp"
                 android:textStyle="bold"
+                android:lines="2"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/telefonoCasa" />
@@ -193,7 +192,6 @@
                 android:layout_weight="1"
                 android:inputType="phone"
                 android:ems="10"
-                android:textColor="#ffffffff"
                 android:background="@drawable/border"
                 android:paddingLeft="5dp"
                 android:paddingRight="2dp"
@@ -211,21 +209,21 @@
                 android:layout_weight="0.6"
                 android:textStyle="bold"
                 android:paddingLeft="5dp"
-                android:textColor="#ffffffff"
+                android:lines="3"
+                android:gravity="center_vertical"
                 android:textSize="20sp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/direccion" />
 
             <EditText
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:paddingLeft="5dp"
                 android:paddingRight="2dp"
                 android:background="@drawable/border"
                 android:id="@+id/etDireccion"
                 android:inputType="textMultiLine"
-                android:textColor="#ffffffff"
                 android:ems="10" />
 
 
@@ -235,7 +233,6 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:background="#ff050505"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:id="@+id/llBotones" >
@@ -245,14 +242,12 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:background="@drawable/border"
-            android:textColor="#ffffffff"
             android:text="@string/cancelar"
             android:id="@+id/btnCancelar" />
 
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:textColor="#ffffffff"
             android:background="@drawable/border"
             android:layout_height="wrap_content"
             android:id="@+id/btnPositivo"/>
