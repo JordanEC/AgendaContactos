@@ -1,2 +1,2 @@
 # AgendaContactos
-Simple address book that uses SQLite to store data.
+Simple Android address book app that uses SQLite to store data.
